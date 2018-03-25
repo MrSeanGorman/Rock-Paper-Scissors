@@ -7,8 +7,6 @@ def compare(p1, p2):
     else:
         return 'Player One wins!'
 
-
-
 def main():
     player_one_choice = input('Player One, would you like to play rock, paper, or scissors?')
     player_two_choice = input('Player Two, would you like to play rock, paper, or scissors?')
@@ -18,12 +16,6 @@ def main():
     while play_again.lower().startswith('y'):
         main()
     exit()
-    
-    
-
-
-    
-    
 
 if __name__ == '__main__':
     main()
